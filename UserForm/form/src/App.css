@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(180deg, #02c4f5, #0d449d);
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background: white;
+  width: 500px;
+  min-height: 650px;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.title {
+  color: #0656d6;
+  text-align: center;
+  font-size: 50px;
+  margin: 80px 0px 40px 0px;
+}
+
+.name, .email, .message {
+  margin: 60px;
+  color: #969292;
+  font-size: 30px;
+}
+
+.input {
+  height: 45px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 6px solid black;
+  margin-bottom: 50px;
+}
+
+
+.submit {
+  display:flex;
+  text-transform: uppercase;
+  font-size: 30px;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 100px;
+  background: linear-gradient(800deg, #02c4f5, #0d449d);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+   rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition:all 0.1s;
+}
+
+button:active {
+  transform: translateY(2px);
+}
